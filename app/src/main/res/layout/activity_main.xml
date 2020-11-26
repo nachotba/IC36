@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt_Usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ly_principal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="271dp">
+
+        <TextView
+            android:id="@+id/Txt_Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Usuario"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/EDT_Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/Txt_Password"
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:text="Password"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/EDT_Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/Btn_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
