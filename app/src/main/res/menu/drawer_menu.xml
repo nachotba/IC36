@@ -3,31 +3,33 @@
     <item android:title="Principal">
         <menu>
             <item
-                android:id="@+id/home"
+                android:id="@+id/inicio"
                 android:icon="@drawable/ic_home"
-                android:title="home">
+                android:title="Inicio">
             </item>
             <item
-                android:id="@+id/personas"
+                android:id="@+id/vecinos"
                 android:icon="@drawable/ic_group"
-                android:title="personas">
+                android:title="Vecinos">
+            </item>
+            <item
+                android:id="@+id/gastosComunes"
+                android:icon="@drawable/ic_group"
+                android:title="Gastos Comunes">
+            </item>
+            <item
+                android:id="@+id/caja"
+                android:icon="@drawable/ic_group"
+                android:title="Caja">
+            </item>
+            <item
+                android:id="@+id/contacto"
+                android:icon="@drawable/ic_group"
+                android:title="Contacto">
             </item>
         </menu>
     </item>
-    <item android:title="Secundario">
-        <menu>
-            <item
-                android:id="@+id/home2"
-                android:icon="@drawable/ic_home"
-                android:title="home">
-            </item>
-            <item
-                android:id="@+id/personas2"
-                android:icon="@drawable/ic_group"
-                android:title="personas">
-            </item>
-        </menu>
-    </item>
+
 
 
 </menu>

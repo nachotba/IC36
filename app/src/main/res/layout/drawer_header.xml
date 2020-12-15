@@ -11,6 +11,6 @@
         android:textSize="30sp"
         android:textStyle="bold"
         android:background="@color/purple_700"
-        android:text="Drawer Header"/>
+        android:text="Barrio IC 36"/>
 
 </android.support.constraint.ConstraintLayout>

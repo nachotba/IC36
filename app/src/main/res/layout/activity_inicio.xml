@@ -8,19 +8,29 @@
     tools:context=".Inicio"
     android:id="@+id/drawer">
 
-    <!--<include>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:menu="@menu/drawer_menu"
+        app:headerLayout="@layout/drawer_header"/>
+
+    <include
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/drawer_toolbar"
-    </include>
 
-    <include>
+   />
+
+    <include
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/content_main"
-    </include>-->
+    />
+    />
 
-    <!--Probando commit-->
+
+
     <include layout="@layout/toolbar" />
 
     <!--<android.support.v7.widget.Toolbar
