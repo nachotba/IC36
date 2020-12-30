@@ -14,17 +14,17 @@
             </item>
             <item
                 android:id="@+id/gastosComunes"
-                android:icon="@drawable/ic_group"
+                android:icon="@drawable/ic_money"
                 android:title="Gastos Comunes">
             </item>
             <item
                 android:id="@+id/caja"
-                android:icon="@drawable/ic_group"
+                android:icon="@drawable/ic_point_of_sale"
                 android:title="Caja">
             </item>
             <item
                 android:id="@+id/contacto"
-                android:icon="@drawable/ic_group"
+                android:icon="@drawable/ic_contact_mail"
                 android:title="Contacto">
             </item>
         </menu>
